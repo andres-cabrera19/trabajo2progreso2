@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 int main (int argc, char *argv []) {
     int arreglo []={3,6,9,12,15,8};
@@ -8,7 +8,7 @@ int main (int argc, char *argv []) {
     for (int i = 0; i < 6; i++)
     {
         printf("arreglo[%d] = %d",i,  arreglo[i]);
-        printf("%p\n", ptr);
+        printf("%p\n", *ptr);
     }
 
     return 0;
